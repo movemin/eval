@@ -21,7 +21,7 @@ def reverse(word: str) -> str:
 
 # 모듈로 재사용될 때 아래 코드가 실행되지 않도록 가드 추가
 if __name__ == '__main__':
-    # input() 으로 문자열 한 줄을 읽습니다.
+    # input() 으로 문자열 한 줄을 읽습니다.s
     word = input()
 
     # 함수 호출 및 결과값 출력
