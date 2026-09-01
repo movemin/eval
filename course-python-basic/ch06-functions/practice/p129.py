@@ -19,7 +19,6 @@ def max_value_key(**kwargs: int) -> str:
         'only'
     """
 
-    # 인덱스 슬라이싱으로 불러와서 반환
     return max(kwargs, key=kwargs.get)
 
 # key=value 토큰을 dict 로 파싱합니다(값은 정수). 예: "a=3 b=7" → opts={"a":3,"b":7}
