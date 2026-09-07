@@ -9,7 +9,7 @@ public class Main {
             int count = 0;
 
             for (int i = k; i <= n; i += k) {
-                count ++;
+                count++;
             }
             
             System.out.printf("%d의 배수 개수: %d", k, count);
