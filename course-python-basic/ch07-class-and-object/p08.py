@@ -19,7 +19,7 @@ class Dog:
         return f"{self.name}: 멍멍"
 
     # 사람 나이로 변환하는 메서드
-    def human_age(self) -> str:
+    def human_age(self) -> int:
         return self.age * 7
 
     # string 강제 변환 메서드
