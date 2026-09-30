@@ -18,7 +18,7 @@ class Sensor:
         self.readings = []
 
     # 센서에 입력한 기록 저장
-    def record(self, value: int) -> None:
+    def record(self, value: float) -> None:  # float으로 확장해 정수·실수 모두 허용
         """기록 저장"""
         self.readings.append(value)
 
@@ -30,7 +30,7 @@ class Sensor:
     # 평균 반환
     def average(self) -> float:
         """각 센서에 저장된 기록들의 평균"""
-        if self.readings:
+        if self.count() > 0:  # count() 메서드를 재사용해 일관성 유지
             return sum(self.readings) / self.count()
         return 0.0
 
