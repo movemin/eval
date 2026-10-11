@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p132 {
 
     // 최대 소인수 메서드
     private static long largestPrimeFactor(long number) {

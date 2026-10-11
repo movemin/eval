@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p165 {
 
     // 진약수 합 계산 메서드로 분리 → main 로직 간결화
     static int sumOfProperDivisors(int num) {

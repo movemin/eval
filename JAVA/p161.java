@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p161 {
 
     // 최대공약수 메서드
     private static int gcd(int num1, int num2) {

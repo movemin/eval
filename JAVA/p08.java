@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double heightCm = sc.nextDouble();

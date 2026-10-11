@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p89 {
     public static void main(String[] args) {
         final int DAYS_PER_MONTH = 30;
         try (Scanner sc = new Scanner(System.in)) {

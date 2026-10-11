@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p136 {
 
     // 소수를 판별하는 메서드
     private static boolean isPrime(int x) {

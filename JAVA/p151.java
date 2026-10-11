@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p151 {
 
     // 구조적 언어에 맞게 짝수 홀수 판별은 메소드로 분리
     private static boolean isEven(long num) {

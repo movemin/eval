@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p18 {
     public static void main(String[] args) {
         try(Scanner sc = new Scanner(System.in)) {  // sc 누수 방지
             int n = sc.nextInt();

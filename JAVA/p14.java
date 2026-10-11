@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int isMember = sc.nextInt();

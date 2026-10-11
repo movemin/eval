@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p150 {
 
     // 제곱수 판별 클래스
     private static boolean isSquare(int number) {

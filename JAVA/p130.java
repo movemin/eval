@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p130 {
     private static boolean isPrime(int num) {
 
         // 2 미만 숫자가 들어올 경우 무조건 false 리턴

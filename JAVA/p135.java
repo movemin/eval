@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p135 {
 
     // 입력값보다 큰 첫 소수를 구하는 메서드로 따로 분리하여 main구문 가독성 및 유지보수 향상
     private static long smallestPrime(long x) {

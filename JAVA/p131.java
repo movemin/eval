@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.StringJoiner;
 
-public class Main {
+public class p131 {
 
     // 소인수분해 나열을 메서드로 모듈화하여 가독성 향상
     private static String primeFactorization(int num) {

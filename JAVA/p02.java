@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // sc → scanner: 역할이 더 명확한 변수명
         int age = scanner.nextInt();

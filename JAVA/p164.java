@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p164 {
 
     // gcd 메서드 설계
     private static int gcd(int num1, int num2) {

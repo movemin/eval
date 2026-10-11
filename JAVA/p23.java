@@ -1,4 +1,4 @@
-public class Main {
+public class p23 {
     public static void main(String[] args) {
 
         // 더할 숫자와 누적합 초기화

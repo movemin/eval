@@ -5,7 +5,7 @@ import java.awt.*;
 
 // CalGUI2 클래스가 판떄기(JFrame) 기능을 사용하기 위해 상속받음
 // is a 관계 -> CalGUI2는 판때기이다.
-public class CalGUI2 extends JFrame {
+public class Calculator extends JFrame {
 
     // 계산기 화면 구현을 위한 클래스
     // JFrame f;   // 판때기
@@ -39,7 +39,7 @@ public class CalGUI2 extends JFrame {
     JButton clear;
     JTextField jtf; // 한줄 입력창
 
-    public CalGUI2() {  // 생성자 목적: 멤버변수 초기화
+    public Calculator() {  // 생성자 목적: 멤버변수 초기화
         // f = new JFrame("계산기");
         // FlowLayout layout = new FlowLayout();   // 화면 배치 관리자: FlowLayput: 화면에 들어오는 순서대로 배치
         // this.setLayout( layout );  // 판때기 화면 배치 관리자 설정

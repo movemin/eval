@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p138 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int lineCount = sc.nextInt();

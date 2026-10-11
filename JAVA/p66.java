@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class p66 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int firstNum = sc.nextInt();

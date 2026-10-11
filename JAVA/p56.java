@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p56 {
     public static void main(String[] args) {
 
         // 스캐너 누수 방지

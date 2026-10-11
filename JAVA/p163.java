@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p163 {
 
     // 합성수 판별 메서드 (1보다 큰 자연수 중에서 1과 자기 자신 외에 다른 약수를 가진 수)
     private static boolean isCompositeNumber(int number) {

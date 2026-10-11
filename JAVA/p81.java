@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p81 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             long firstTerm = sc.nextInt();

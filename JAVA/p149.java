@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p149 {
     public static void main(String[] args) {
         // 알고리즘: N 초과부터 후보를 1씩 증가시키며 소수를 2개 찾아 공백 구분 출력
         try (Scanner sc = new Scanner(System.in)) {

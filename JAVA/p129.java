@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.StringJoiner;
 
-public class Main {
+public class p129 {
     
     // 단일 숫자의 소수 여부를 판별하는 메서드 (단일 책임 원칙)
     private static boolean isPrime(int num) {

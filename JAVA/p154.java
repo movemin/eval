@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p154 {
 
     // 재사용성을 고려하여 메서드로 분리
     private static boolean isOdd(int integer) {

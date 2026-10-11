@@ -15,7 +15,7 @@ class GcdUtil {
 }
 
 // 메인 클래스
-public class Main {
+public class p167 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int firstNum = sc.nextInt();

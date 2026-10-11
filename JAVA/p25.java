@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p25 {
     public static void main(String[] args) {
         
         // 알고리즘: 3의 배수이면 스킵하여 3의 배수 제외 합 구하기

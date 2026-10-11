@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p140 {
 
     // 공백 (spaces)개 + 별 (stars)개를 한 줄에 출력하는 헬퍼 메서드
     private static void printRow(int spaces, int stars) {

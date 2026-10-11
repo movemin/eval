@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p162 {
 
     // GCD(최대공약수)를 구하는 메서드: gcd(a, b) = gcd(b, a % b)
     private static int gcd(int num1, int num2) {

@@ -21,7 +21,7 @@ class MathUtils {
 }
 
 // 메인 클래스에 피보나치 결과값 출력
-public class Main {
+public class p169 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

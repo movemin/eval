@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class p80 {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int startNum = sc.nextInt();
