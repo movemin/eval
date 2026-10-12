@@ -4,7 +4,7 @@ public class p143 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        sc.close();
         // 바깥 반복문 행 반복
         for (int row = 1; row <= n; row++) {
             int rowSum = 0;

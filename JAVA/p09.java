@@ -4,6 +4,8 @@ public class p09 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
+        sc.close();
+        
         // switch 로 1~12 를 영어 달 이름으로, 그 외는 "Invalid" 출력.
         switch (month) {
             case 1:

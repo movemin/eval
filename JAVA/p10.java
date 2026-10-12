@@ -4,6 +4,8 @@ public class p10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int day = sc.nextInt();
+        sc.close();
+        
         // switch와 case, break, default를 활용하여
         // 1부터 7까지 각 요일 / 한국어 영어 형식으로 출력
         switch (day) {

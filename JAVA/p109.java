@@ -4,7 +4,8 @@ public class p109 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        sc.close();
+        
         // 실수 타입으로 합계 초기화
         double sum = 0.0;
 

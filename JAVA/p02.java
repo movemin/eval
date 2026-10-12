@@ -4,6 +4,7 @@ public class p02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // sc → scanner: 역할이 더 명확한 변수명
         int age = scanner.nextInt();
+        scanner.close();
 
         // 나이가 18세 이상일 경우 '성인입니다' 출력
         if (age >= 18) {

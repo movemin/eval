@@ -30,6 +30,7 @@ public class p129 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
+        sc.close();
 
         // 소수 나열 메서드 출력
         System.out.println(listPrimes(n));

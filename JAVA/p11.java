@@ -4,7 +4,8 @@ public class p11 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
-
+        sc.close();
+        
         // switch fall-through 로 31일/30일 케이스를 묶고,
         // 2 는 28일, default 는 "잘못된 월" 출력.
         switch (month) {

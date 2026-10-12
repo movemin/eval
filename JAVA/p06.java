@@ -4,6 +4,7 @@ public class p06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
+        sc.close();
         
         // 특정 날짜 (이퀄 연산자)에 따라 메시지 출력, 그 외에는 출력 x
         if (month == 3) { 

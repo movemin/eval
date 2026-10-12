@@ -20,7 +20,8 @@ public class p166 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        sc.close();
+        
         // n 보존하고 보존값의 진약수 합을 구하여 후보값과 비교 후 출력
         int candidate = n;
         while (true) {

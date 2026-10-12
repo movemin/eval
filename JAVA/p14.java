@@ -5,6 +5,8 @@ public class p14 {
         Scanner sc = new Scanner(System.in);
         int isMember = sc.nextInt();
         int amount = sc.nextInt();
+        sc.close();
+        
         // 1단계: 회원 여부 확인
         // 2단계: 회원이면 금액이 1만원 이상인지 확인
         if (isMember == 1) {

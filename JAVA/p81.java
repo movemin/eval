@@ -8,7 +8,6 @@ public class p81 {
             int termCount = sc.nextInt();
 
             // 카운트 변수와 시작값 보존 변수 저장
-            int count = 0;
             long term = firstTerm;
 
             // n번 전부 순회할 때까지 반복

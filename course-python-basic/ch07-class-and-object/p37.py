@@ -19,7 +19,7 @@ class Borrower:
 
     # 대출 심사 후 대출이 유효한지 확인
     def borrow(self, n: int) -> bool:
-        """대출 유효성을 심사합니다."""
+        """대출 유효성을 심사합니다.""" 
         if self._borrowed + n > Borrower.MAX:
             return False
         self._borrowed += n

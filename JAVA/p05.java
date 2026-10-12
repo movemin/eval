@@ -4,6 +4,7 @@ public class p05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int score = sc.nextInt();
+        sc.close();
         
         // if-else if문을 사용하여 75미만은 아무 값도 출력 안하게 설계
         if (score >= 95) {

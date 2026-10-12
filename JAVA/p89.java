@@ -12,7 +12,7 @@ public class p89 {
             int dayOfYear = (month - 1) * DAYS_PER_MONTH + day;
 
             // 일로 환산 결과 출력
-            System.out.println(dayOfYear + "일째");
+            System.out.println(year + "년 " + dayOfYear + "일째");
         }
     }
 }

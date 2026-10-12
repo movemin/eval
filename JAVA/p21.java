@@ -5,6 +5,7 @@ public class p21 {
         Scanner sc = new Scanner(System.in);
         int rows = sc.nextInt();
         int cols = sc.nextInt();
+        sc.close();
         
         // 바깥 for : rows 번, 안쪽 for : cols 번 print("*"). 행 끝에 줄바꿈.
         for (int i = 1 ; i <= rows ; i++) {

@@ -4,7 +4,8 @@ public class p76 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        sc.close();
+        
         // 모두 짝수 인지 여부를 확인하는 불린형을 통해 출력문 가독성 향상
         boolean allEven = true;
 

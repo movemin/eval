@@ -17,11 +17,12 @@ class GcdUtil {
 // 메인 클래스
 public class p167 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int firstNum = sc.nextInt();
-        int secondNum = sc.nextInt();
+        try (Scanner sc = new Scanner(System.in)) {
+            int firstNum = sc.nextInt();
+            int secondNum = sc.nextInt();
 
-        // 결과값 출력
-        System.out.println("GCD: " + GcdUtil.gcd(firstNum, secondNum));
+            // 결과값 출력
+            System.out.println("GCD: " + GcdUtil.gcd(firstNum, secondNum));
+        }
     }
 }

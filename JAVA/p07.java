@@ -4,6 +4,8 @@ public class p07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month = sc.nextInt();
+        sc.close();
+        
         // Python에서의 or은 자바에서는 ||
         if (month == 3 || month == 4 || month == 5) {
             System.out.println("봄");

@@ -22,7 +22,8 @@ public class p168 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        sc.close();
+        
         // MathUtils 유틸리티 메서드로 피보나치 결과 출력
         System.out.println(MathUtils.fibonacci(n));
     }
