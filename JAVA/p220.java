@@ -16,15 +16,16 @@ public class p220 {
     }
     // 메인 스크립트
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for (int candidate = 2; candidate <= n; candidate++) {
-            int partnerSum = sumOfProperDivisors(candidate);
-            if ((candidate < partnerSum && partnerSum <= n) && sumOfProperDivisors(partnerSum) == candidate) {
-                System.out.println(candidate + " " + partnerSum);
-                return;
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            for (int candidate = 2; candidate <= n; candidate++) {
+                int partnerSum = sumOfProperDivisors(candidate);
+                if ((candidate < partnerSum && partnerSum <= n) && sumOfProperDivisors(partnerSum) == candidate) {
+                    System.out.println(candidate + " " + partnerSum);
+                    return;
+                }
             }
+            System.out.println("없음");
         }
-        System.out.println("없음");
     }
 }
