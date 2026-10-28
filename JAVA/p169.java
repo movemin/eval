@@ -1,5 +1,17 @@
 import java.util.Scanner;
 
+// 메인 클래스에 피보나치 결과값 출력
+public class p169 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        sc.close();
+        
+        // 피보나치 합 결과값 출력
+        System.out.println(MathUtils.fibonacci(n));
+    }
+}
+
 // 수학 기능 클래스로 설계
 class MathUtils {
     private MathUtils() {} // 유틸리티 클래스는 인스턴스화 방지
@@ -17,17 +29,5 @@ class MathUtils {
     }
     
     return sum;
-    }
-}
-
-// 메인 클래스에 피보나치 결과값 출력
-public class p169 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        sc.close();
-        
-        // 피보나치 합 결과값 출력
-        System.out.println(MathUtils.fibonacci(n));
     }
 }
